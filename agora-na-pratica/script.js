@@ -1,5 +1,6 @@
 
-    /*Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas constantes, a e b, definidas no começo com os valores que serão operados. Faça programas para:
+    /* 
+    1- Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas constantes, a e b, definidas no começo com os valores que serão operados. Faça programas para:
 
     Adição (a + b)
     Subtração (a - b)
@@ -35,15 +36,44 @@
 
     console.log(`O resultado do módulo é ${modulo}`);
 
+    /*
+    2- Faça um programa que retorne o maior de dois números. Defina no começo do programa duas constantes com os valores que serão comparados.*/
 
+    console.log(`**************************************************`);
+
+    const num3 = 4;
+    const num4 = 9;
+
+    if (num1 > num2) {
+        console.log(`O ${num3} é maior que o ${num4}`);        
+    } else {
+        console.log(`O ${num4} é maior que o ${num3}`);
+    }
 
     /*
-    *Dica: Neste link você encontra mais detalhes sobre operadores matemáticos 
+    3- Faça um programa que retorne o maior de três números. Defina no começo do programa três constantes com os valores que serão comparados.
+    */
 
-    Faça um programa que retorne o maior de dois números. Defina no começo do programa duas constantes com os valores que serão comparados.
-    Faça um programa que retorne o maior de três números. Defina no começo do programa três constantes com os valores que serão comparados.
-    Faça um programa que, dado um valor recebido como parâmetro, retorne "positive" se esse valor for positivo, "negative" se for negativo, e caso não seja nem positivo e nem negativo retorne "zero".
-    (foguetinho) Faça um programa que defina três variáveis com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário. Se algum ângulo for inválido o programa deve retornar uma mensagem de erro.
+    const valor1 = 15;
+    const valor2 = 0;
+    const valor3 = 20;
+
+    if (valor1 > valor2 && valor2 > valor3) {
+        console.log(`O maior número entre ${valor1}, ${valor2} e o ${valor3} é o número ${valor1}`);
+    } else if (valor1 > valor3 && valor3 < valor2) {
+        console.log(`O maior número entre ${valor1}, ${valor2} e o ${valor3} é o número ${valor2}`);
+     } else {
+        console.log(`O maior número entre ${valor1}, ${valor2} e o ${valor3} é o número ${valor3}`);
+     }
+     console.log(`**************************************************`);
+     
+    /*
+    4- Faça um programa que, dado um valor recebido como parâmetro, retorne "positive" se esse valor for positivo, "negative" se for negativo, e caso não seja nem positivo e nem negativo retorne "zero".
+   */
+     
+
+  /*
+  5-  Faça um programa que defina três variáveis com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário. Se algum ângulo for inválido o programa deve retornar uma mensagem de erro.
 
     Para os ângulos serem de um triângulo válido, a soma dos três devem ser 180 graus.
     Um ângulo será considerado inválido se não tiver um valor positivo.
