@@ -79,6 +79,32 @@
     Resultado: R$ 2.612,55.
     Dica: que tal identificar as alíquotas com variáveis de nomes explicativos? */
 
+    const num1 = 21;
+    const num2 = 5;
+
+    //Adição
+    soma = (num1 + num2);
+
+    console.log(`O resultado da soma dos números é ${soma}`);
+
+    // Subtração
+    subtracao = (num1 - num2);
+
+    console.log(`O resultado da subtração é ${subtracao}`);
+
+    //Multiplicação
+    multiplicacao = (num1 * num2);
+
+    console.log(`O resultado da multiplicação é ${multiplicacao}`);
+
+    //Divisão
+    divisao = (num1 / num2);
+
+    console.log(`O resultado da divisão é ${divisao}`);
     
+    //Módulo 
+    modulo = (num1 % num2);
+
+    console.log(`O resultado do módulo é ${modulo}`);
 
     
