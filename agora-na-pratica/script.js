@@ -79,6 +79,12 @@
     Resultado: R$ 2.612,55.
     Dica: que tal identificar as alíquotas com variáveis de nomes explicativos? */
 
-    
+    const num1 = 3;
+    const num2 = 5;
+
+    //Adição
+    soma = (num1 + num2);
+
+    console.log(`A o resultado da soma dos números é ${soma}`);
 
     
