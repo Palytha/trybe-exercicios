@@ -7,12 +7,12 @@
     Divisão (a / b)
     Módulo (a % b)
 
-    *Dica: Neste link você encontra mais detalhes sobre operadores matemáticos 😉
+    *Dica: Neste link você encontra mais detalhes sobre operadores matemáticos 
 
     Faça um programa que retorne o maior de dois números. Defina no começo do programa duas constantes com os valores que serão comparados.
     Faça um programa que retorne o maior de três números. Defina no começo do programa três constantes com os valores que serão comparados.
     Faça um programa que, dado um valor recebido como parâmetro, retorne "positive" se esse valor for positivo, "negative" se for negativo, e caso não seja nem positivo e nem negativo retorne "zero".
-    🚀 Faça um programa que defina três variáveis com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário. Se algum ângulo for inválido o programa deve retornar uma mensagem de erro.
+    (foguetinho) Faça um programa que defina três variáveis com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário. Se algum ângulo for inválido o programa deve retornar uma mensagem de erro.
 
     Para os ângulos serem de um triângulo válido, a soma dos três devem ser 180 graus.
     Um ângulo será considerado inválido se não tiver um valor positivo.
@@ -34,7 +34,7 @@
     Porcentagem < 50 -> F
     O programa deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100.
 
-    🚀 Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false.
+    (foguetinho) Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false.
 
     Bonus: use somente um if.
 
@@ -78,5 +78,7 @@
 
     Resultado: R$ 2.612,55.
     Dica: que tal identificar as alíquotas com variáveis de nomes explicativos? */
+
+    
 
     
